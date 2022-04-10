@@ -13,7 +13,7 @@ pipeline{
 			}
 			
 		}
-		stage('Build'){
+		stage('Integration-Test'){
 			steps{
 				echo "Integration-Test"
 			}
