@@ -4,7 +4,17 @@ pipeline{
 		stage('Build'){
 			steps{
 				echo "Build"
+			}
+			
+		}
+		stage('Test'){
+			steps{
 				echo "Test"
+			}
+			
+		}
+		stage('Build'){
+			steps{
 				echo "Integration-Test"
 			}
 			
